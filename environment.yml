@@ -1,0 +1,10 @@
+name: pythongui
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - django=2.2
+  - pip
+  - pip:
+    - django-crispy-forms==1.9
+    - pillow==7.0
